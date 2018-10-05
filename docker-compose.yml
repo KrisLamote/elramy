@@ -1,0 +1,21 @@
+version: '2'
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: elramy_db
+      MYSQL_USER: elramy
+      MYSQL_PASSWORD: elramy_pwd
+    ports:
+    - 33061:3306
+    volumes:
+    - mysqldata:/var/lib/mysql
+    networks:
+    - ntwrk
+networks:
+  ntwrk:
+    driver: "bridge"
+volumes:
+  mysqldata:
+    driver: "local"
