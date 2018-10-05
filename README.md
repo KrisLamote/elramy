@@ -1,4 +1,5 @@
 # elramy
+
 Docker environment for running **El**ixir applications connected with **Ra**bbitMQ and **My**SQL
 
 The primary goals are currently:
@@ -9,5 +10,11 @@ The primary goals are currently:
 
 ## MySQL
 
-* Connect to the running MySQL instance by connecting your client to localhost:33061
+* connect to the running MySQL instance by connecting your client to localhost:33061
 * any modifications make are retained as they are stored in the mysqldata volume
+
+## RabbitMQ
+
+* connect to the running RabbitMQ instance by connecting your client to localhost:5672
+* the management console is available on locathost:15672
+
