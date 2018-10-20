@@ -13,9 +13,22 @@ services:
     - mysqldata:/var/lib/mysql
     networks:
     - ntwrk
+  rabbit:
+    image: rabbitmq:3-management
+    environment:
+      RABBITMQ_DEFAULT_USER: elramy
+      RABBITMQ_DEFAULT_PASS: elramy_pwd
+    ports:
+    - 15672:15672
+    volumes:
+    - rabbitdata:/var/lib/rabbitmq
+    networks:
+    - ntwrk
 networks:
   ntwrk:
     driver: "bridge"
 volumes:
   mysqldata:
+    driver: "local"
+  rabbitdata:
     driver: "local"
