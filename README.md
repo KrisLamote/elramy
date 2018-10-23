@@ -38,16 +38,18 @@ Install Hex locally
 ```
 docker run -it --rm --name=elixir \
     --network=elramy_ntwrk \
-    -v $(pwd):/usr/src/app -w /usr/src/app \
+    -v $(pwd)/.mix:/root/.mix -v $(pwd)/demo:/usr/src/app -w /usr/src/app \
     elixir:latest mix new demo --sup
 ```
+
+when adding hex the related data will be stored in /root/.mix, so by adding a ```.mix``` volume, this data is retained (otherwise you'll be prompted to add hex with every compile..)
 
 Compile
 
 ```
 docker run -it --rm --name=elixir \
     --network=elramy_ntwrk \
-    -v $(pwd)/demo:/usr/src/app -w /usr/src/app \
+    -v $(pwd)/.mix:/root/.mix -v $(pwd)/demo:/usr/src/app -w /usr/src/app \
     elixir:latest mix compile
 ```
 
@@ -56,9 +58,9 @@ Interact with your demo app
 ```
 docker run -it --rm --name=elixir \
     --network=elramy_ntwrk \
-    -v $(pwd)/demo:/usr/src/app -w /usr/src/app \
+    -v $(pwd)/.mix:/root/.mix -v $(pwd)/demo:/usr/src/app -w /usr/src/app \
     elixir:latest iex -S mix
 ```
 
 etc..
-Obviously this is a but clumier than running ```mix ..```, the idea add a bash file that can simplify this greatly.
+Obviously this is a but clumsier than running ```mix ..```, the idea add a bash file that can simplify this greatly.
