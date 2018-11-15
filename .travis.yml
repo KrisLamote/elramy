@@ -1,2 +1,2 @@
 script:
-  - docker-compose config
+  - MYSQL_PORT=3306 RBTMQ_PORT=15672 docker-compose config
