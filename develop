@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+# set ports to whatever is set, using defaults
+export MYSQL_PORT=${MYSQL_PORT:-33061}
+export RBTMQ_PORT=${RBTMQ_PORT:-15672}
+
+# set elixir version, 1.7.3 as default
+export ELX_VERSION=${ELX_VERSION:-latest}
+
+if [ $# -gt 0 ];then
+    if [ "$1" == "iex" ];then
+        shift 1
+        docker run -it --rm --name=elixir \
+            --network=elramy_ntwrk \
+            -v $(pwd)/app:/usr/src/app \
+            -v $(pwd)/.mix:/root/.mix -w /usr/src/app \
+            elixir:${ELX_VERSION} iex "$@"
+    elif [ "$1" == "mix" ];then
+        shift 1
+        docker run -it --rm --name=elixir \
+            --network=elramy_ntwrk \
+            -v $(pwd)/app:/usr/src/app \
+            -v $(pwd)/.mix:/root/.mix -w /usr/src/app \
+            elixir:${ELX_VERSION} mix "$@"
+    else
+        docker-compose "$@"
+    fi
+else
+    docker-compose ps
+fi
