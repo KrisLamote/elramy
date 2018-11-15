@@ -45,6 +45,8 @@ docker run -it --rm --name=elixir \
     elixir:latest mix new app --sup
 ```
 
+when adding hex the related data will be stored in /root/.mix, so by adding a ```.mix``` volume, this data is retained (otherwise you'll be prompted to add hex with every compile..)
+
 Compile
 
 ```
