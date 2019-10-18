@@ -1,0 +1,558 @@
+2019-10-18 06:04:39 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.848.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.237.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.237.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 37001
+  neighbours:
+    neighbour: [{pid,<0.237.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Inspect.Algebra','fits?',4}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.848.0>]},{trap_exit,false},{status,waiting},{heap_size,6772},{stack_size,45},{reductions,292976},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:05:44 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.856.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.852.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.852.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.852.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.856.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12015},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:05:55 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.862.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.860.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.860.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36985
+  neighbours:
+    neighbour: [{pid,<0.860.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.862.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12018},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:07:20 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.870.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.866.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.866.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.866.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Inspect.Algebra','fits?',4}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.870.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12845},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:11:09 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.878.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.874.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.874.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.874.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.878.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,49},{reductions,2513},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-10-18 06:11:47 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.886.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.883.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.883.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.883.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Inspect.Algebra','fits?',4}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.886.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12845},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:13:03 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.893.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.890.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.890.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.890.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.893.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12849},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:14:02 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.901.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.897.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.897.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.897.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.901.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12849},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:19:44 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.911.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.905.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.905.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.905.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.911.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12845},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:19:53 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.917.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.915.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.915.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.915.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Inspect.Algebra','fits?',4}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.917.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12014},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:19:58 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.926.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.921.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.921.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.921.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.926.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,49},{reductions,3437},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-10-18 06:20:10 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.933.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.930.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.930.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.930.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Inspect.Algebra','fits?',4}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.933.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12845},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:21:12 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.949.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.945.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.945.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.945.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.949.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12849},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:25:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.958.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.953.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.953.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.953.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.958.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12849},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:26:17 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.965.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.962.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.962.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.962.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.965.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12844},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:28:41 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.973.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.969.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.969.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.969.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.973.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12844},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:28:47 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.980.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.977.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.977.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.977.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.980.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12844},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:32:40 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.989.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.984.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.984.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.984.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.989.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,49},{reductions,2513},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-10-18 06:34:13 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.997.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.993.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.993.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.993.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.997.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12849},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:41:57 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.1008.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.1001.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.1001.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.1001.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Inspect.Algebra','fits?',4}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.1008.0>]},{trap_exit,false},{status,waiting},{heap_size,6772},{stack_size,45},{reductions,12653},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:45:10 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.1017.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.1012.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.1012.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.1012.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.1017.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,49},{reductions,2513},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,columns,1,[{file,"io.erl"},{line,121}]},{'Elixir.IEx.Config',columns,0,[{file,"lib/iex/config.ex"},{line,22}]},{'Elixir.IEx.Config',width,0,[{file,"lib/iex/config.ex"},{line,16}]},{'Elixir.Keyword',put_new_lazy,3,[{file,"lib/keyword.ex"},{line,610}]},{'Elixir.IEx.Config',inspect_opts,0,[{file,"lib/iex/config.ex"},{line,113}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]}]}]
+2019-10-18 06:45:20 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.1024.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.1021.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.1021.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.1021.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Inspect.Algebra','fits?',4}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.1024.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12845},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 06:45:53 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.1032.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.1029.0>,<0.73.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.1029.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 36988
+  neighbours:
+    neighbour: [{pid,<0.1029.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.73.0>]},{message_queue_len,0},{links,[<0.1032.0>]},{trap_exit,false},{status,runnable},{heap_size,1598},{stack_size,49},{reductions,2513},{current_stacktrace,[{'Elixir.Inspect.Algebra','fits?',4,[{file,"lib/inspect/algebra.ex"},{line,910}]},{'Elixir.Inspect.Algebra',format,3,[{file,"lib/inspect/algebra.ex"},{line,1009}]},{'Elixir.Kernel',inspect,2,[{file,"lib/kernel.ex"},{line,2067}]},{'Elixir.IEx.Evaluator',io_inspect,1,[{file,"lib/iex/evaluator.ex"},{line,285}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]}]}]
+2019-10-18 07:59:07 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.239.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,21}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.237.0>,<0.78.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.237.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 37182
+  neighbours:
+    neighbour: [{pid,<0.237.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Inspect.Algebra',format,3}},{ancestors,[<0.78.0>]},{message_queue_len,0},{links,[<0.239.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12092},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 08:02:11 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.239.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,21}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.237.0>,<0.76.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.237.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 37182
+  neighbours:
+    neighbour: [{pid,<0.237.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Inspect.Algebra','fits?',4}},{ancestors,[<0.76.0>]},{message_queue_len,0},{links,[<0.239.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12097},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 08:03:16 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.248.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,21}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.245.0>,<0.76.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.245.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 37054
+  neighbours:
+    neighbour: [{pid,<0.245.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.76.0>]},{message_queue_len,0},{links,[<0.248.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12864},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 08:04:04 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.248.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,21}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.246.0>,<0.76.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.246.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 37144
+  neighbours:
+    neighbour: [{pid,<0.246.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.76.0>]},{message_queue_len,0},{links,[<0.248.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12140},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 08:04:32 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.248.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,22}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.246.0>,<0.76.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.246.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 37180
+  neighbours:
+    neighbour: [{pid,<0.246.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.76.0>]},{message_queue_len,0},{links,[<0.248.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12093},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 08:20:29 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.239.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,22}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.237.0>,<0.77.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.237.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 37181
+  neighbours:
+    neighbour: [{pid,<0.237.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Inspect.Algebra',format,3}},{ancestors,[<0.77.0>]},{message_queue_len,0},{links,[<0.239.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12091},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 09:30:39 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.248.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,22}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.246.0>,<0.70.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.246.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 37181
+  neighbours:
+    neighbour: [{pid,<0.246.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{io,execute_request,2}},{ancestors,[<0.70.0>]},{message_queue_len,0},{links,[<0.248.0>]},{trap_exit,false},{status,waiting},{heap_size,4185},{stack_size,45},{reductions,12101},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
+2019-10-18 09:30:59 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Consumer:init/1
+    pid: <0.257.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Consumer',init,1,[{file,"lib/consumer.ex"},{line,22}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.254.0>,<0.70.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.254.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 37052
+  neighbours:
+    neighbour: [{pid,<0.254.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Inspect.Algebra','fits?',4}},{ancestors,[<0.70.0>]},{message_queue_len,0},{links,[<0.257.0>]},{trap_exit,false},{status,waiting},{heap_size,6772},{stack_size,45},{reductions,12653},{current_stacktrace,[{io,execute_request,2,[{file,"io.erl"},{line,579}]},{io,o_request,3,[{file,"io.erl"},{line,63}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,260}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,237}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,215}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}]
