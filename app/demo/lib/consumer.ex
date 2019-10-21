@@ -11,7 +11,7 @@ defmodule Consumer do
   @queue_error "#{@queue}_error"
 
   def init(_opts) do
-    options = [host: "172.18.0.2", port: 5672, virtual_host: "/", username: "elramy", password: "elramy_pwd"]
+    options = [host: "rabbitmq", port: 5672, virtual_host: "/", username: "elramy", password: "elramy_pwd"]
     {:ok, conn} = Connection.open(options, :undefined)
     {:ok, chan} = Channel.open(conn)
     setup_queue(chan)
