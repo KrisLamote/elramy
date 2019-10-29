@@ -12,14 +12,14 @@ if [ $# -gt 0 ];then
         shift 1
         docker run -it --rm --name=elixir \
             --network=elramy_ntwrk \
-            -v $(pwd)/app:/usr/src/app \
+            -v $(pwd)/app/demo:/usr/src/app \
             -v $(pwd)/.mix:/root/.mix -w /usr/src/app \
             elixir:${ELX_VERSION} iex "$@"
     elif [ "$1" == "mix" ];then
         shift 1
         docker run -it --rm --name=elixir \
             --network=elramy_ntwrk \
-            -v $(pwd)/app:/usr/src/app \
+            -v $(pwd)/app/demo:/usr/src/app \
             -v $(pwd)/.mix:/root/.mix -w /usr/src/app \
             elixir:${ELX_VERSION} mix "$@"
     else
