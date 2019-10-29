@@ -1,4 +1,4 @@
-defmodule Demo.MixProject do
+defmodule Demo.Mixfile do
   use Mix.Project
 
   def project do
@@ -14,14 +14,17 @@ defmodule Demo.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger]
+      extra_applications: [:logger],
+      mod: {Demo.Consumer, []}
     ]
   end
 
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:amqp, "~> 1.3"}
+      {:amqp, "~> 1.3"},
+      {:ecto, "~> 2.2"},
+      {:mariaex, "~> 0.8.2"},
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]

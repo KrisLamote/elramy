@@ -1,8 +1,16 @@
-defmodule Consumer do
+defmodule Demo.Consumer do
   use GenServer
   use AMQP
 
+  def start(_type, _args) do
+    start_link
+  end
+
   def start_link do
+    children = [
+      Demo.Repo,
+    ]
+    Supervisor.start_link(children, strategy: :one_for_all)
     GenServer.start_link(__MODULE__, [], [])
   end
 
@@ -59,15 +67,11 @@ defmodule Consumer do
   end
 
   defp consume(channel, tag, redelivered, payload) do
-    number = String.to_integer(payload)
-    if number <= 10 do
-      :ok = Basic.ack channel, tag
-      IO.puts "Consumed a #{number}."
-    else
-      :ok = Basic.reject channel, tag, requeue: false
-      IO.puts "#{number} is too big and was rejected."
-    end
-
+    :ok = Basic.ack channel, tag
+    message = %Demo.Message{}
+    changeset = Demo.Message.changeset(message, %{message: payload})
+    Demo.Repo.insert(changeset)
+    IO.puts "Consumed"
   rescue
     # Requeue unless it's a redelivered message.
     # This means we will retry consuming a message once in case of exception
