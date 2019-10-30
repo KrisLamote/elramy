@@ -20,5 +20,3 @@ To run the demo app:
    http://localhost:15672/#/queues/%2F/gen_server_test_queue 
 
 7. check log in the terminal for log and mysql table using any GUI like mysqlworkbench
-
-
