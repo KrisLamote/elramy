@@ -1,21 +1,22 @@
 # Demo
 
-**TODO: Add description**
+This is basic demo app which shows the complete cycle of message from inception till consumed. 
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `demo` to your list of dependencies in `mix.exs`:
+To run the demo app:
 
-```elixir
-def deps do
-  [
-    {:demo, "~> 0.1.0"}
-  ]
-end
-```
+1.  ./develop up -d
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/demo](https://hexdocs.pm/demo).
+2.  ./develop mix deps.get
 
+3.  ./develop mix ecto.create
+
+4.  ./develop mix ecto.migrate
+
+5.  ./develop iex -S mix
+
+6. Publish a message with payload "hello" in the following queue:
+   http://localhost:15672/#/queues/%2F/gen_server_test_queue 
+
+7. check log in the terminal for log and mysql table using any GUI like mysqlworkbench
