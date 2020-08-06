@@ -2,7 +2,8 @@
 
 # set ports to whatever is set, using defaults
 export MYSQL_PORT=${MYSQL_PORT:-33061}
-export RBTMQ_PORT=${RBTMQ_PORT:-15672}
+export RBTMQ_PORT=${RBTMQ_PORT:-5672}
+export RBTMQ_MGNT_PORT=${RBTMQ_MGNT_PORT:-15672}
 
 # set elixir version, 1.7.3 as default
 export ELX_VERSION=${ELX_VERSION:-latest}
