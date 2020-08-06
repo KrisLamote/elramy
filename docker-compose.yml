@@ -22,7 +22,8 @@ services:
       RABBITMQ_DEFAULT_USER: elramy
       RABBITMQ_DEFAULT_PASS: elramy_pwd
     ports:
-      - "${RBTMQ_PORT}:15672"
+      - "${RBTMQ_MGNT_PORT}:15672"
+      - "${RBTMQ_PORT}:5672"
     volumes:
       - rabbitdata:/var/lib/rabbitmq
     networks:
